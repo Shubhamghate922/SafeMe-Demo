@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Bottom Tab 1: Home -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.safeme.app.fragments.HomeFragment"
+        android:label="SafeMe Home" />
+
+    <!-- Bottom Tab 2: Journeys -->
+    <fragment
+        android:id="@+id/startJourneyFragment"
+        android:name="com.safeme.app.fragments.StartJourneyFragment"
+        android:label="Start Journey" />
+
+    <fragment
+        android:id="@+id/activeJourneyFragment"
+        android:name="com.safeme.app.fragments.ActiveJourneyFragment"
+        android:label="Active Journey" />
+
+    <fragment
+        android:id="@+id/safetyCheckInFragment"
+        android:name="com.safeme.app.fragments.SafetyCheckInFragment"
+        android:label="Safety Check-in" />
+
+    <fragment
+        android:id="@+id/emergencyEscalationFragment"
+        android:name="com.safeme.app.fragments.EmergencyEscalationFragment"
+        android:label="Emergency Escalation" />
+
+    <!-- Bottom Tab 3: Safety -->
+    <fragment
+        android:id="@+id/safetyHubFragment"
+        android:name="com.safeme.app.fragments.SafetyHubFragment"
+        android:label="Safety Center" />
+
+    <fragment
+        android:id="@+id/emergencySosFragment"
+        android:name="com.safeme.app.fragments.EmergencySosFragment"
+        android:label="Emergency SOS" />
+
+    <fragment
+        android:id="@+id/sosAcknowledgementFragment"
+        android:name="com.safeme.app.fragments.SosAcknowledgementFragment"
+        android:label="Respond to Emergency" />
+
+    <fragment
+        android:id="@+id/trustedContactsFragment"
+        android:name="com.safeme.app.fragments.TrustedContactsFragment"
+        android:label="Trusted Contacts" />
+
+    <fragment
+        android:id="@+id/contactDetailFragment"
+        android:name="com.safeme.app.fragments.ContactDetailFragment"
+        android:label="Contact Details" />
+
+    <fragment
+        android:id="@+id/communitySafetyMapFragment"
+        android:name="com.safeme.app.fragments.CommunitySafetyMapFragment"
+        android:label="Community Safety Map" />
+
+    <fragment
+        android:id="@+id/incidentReportFragment"
+        android:name="com.safeme.app.fragments.IncidentReportFragment"
+        android:label="Incident Report" />
+
+    <fragment
+        android:id="@+id/helplinesFragment"
+        android:name="com.safeme.app.fragments.HelplinesFragment"
+        android:label="Emergency Helplines" />
+
+    <fragment
+        android:id="@+id/voiceEmergencyFragment"
+        android:name="com.safeme.app.fragments.VoiceEmergencyFragment"
+        android:label="Voice Emergency" />
+
+    <!-- Bottom Tab 4: Activity -->
+    <fragment
+        android:id="@+id/activityHistoryFragment"
+        android:name="com.safeme.app.fragments.ActivityHistoryFragment"
+        android:label="Activity History" />
+
+    <!-- Bottom Tab 5: Profile -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.safeme.app.fragments.ProfileFragment"
+        android:label="My Profile" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.safeme.app.fragments.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.safeme.app.fragments.AboutFragment"
+        android:label="About SafeMe" />
+
+</navigation>

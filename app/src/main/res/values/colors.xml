@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SafeMe Core Brand Palette -->
+    <color name="safeme_primary">#6C3CE9</color>
+    <color name="safeme_deep_purple">#402080</color>
+    <color name="safeme_light_lavender">#F1ECFF</color>
+    <color name="safeme_white">#FFFFFF</color>
+    <color name="safeme_emergency_red">#E53945</color>
+    <color name="safeme_emergency_red_dark">#B91C1C</color>
+    <color name="safeme_emergency_red_soft">#FEE2E2</color>
+    <color name="safeme_success_green">#16A34A</color>
+    <color name="safeme_success_green_soft">#DCFCE7</color>
+    <color name="safeme_warning_amber">#D97706</color>
+    <color name="safeme_warning_amber_soft">#FEF3C7</color>
+    <color name="safeme_background">#F8F7FC</color>
+    <color name="safeme_surface">#FFFFFF</color>
+    <color name="safeme_surface_variant">#F3F1FA</color>
+    <color name="safeme_text_main">#20202A</color>
+    <color name="safeme_text_secondary">#777586</color>
+    <color name="safeme_border">#E5E1F2</color>
+
+    <!-- Dark Theme Tokens -->
+    <color name="safeme_dark_background">#12111A</color>
+    <color name="safeme_dark_surface">#1C1A28</color>
+    <color name="safeme_dark_surface_variant">#262336</color>
+    <color name="safeme_dark_text_main">#F4F3FA</color>
+    <color name="safeme_dark_text_secondary">#B0ADC2</color>
+    <color name="safeme_dark_border">#332F47</color>
+</resources>

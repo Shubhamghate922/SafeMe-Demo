@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeMe</string>
+    <string name="app_full_title">SafeMe – Person Safety and Emergency Alert System</string>
+    <string name="app_tagline">Your Safety, Our Priority</string>
+    <string name="app_version">Version 1.0.0 (Capstone Build)</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_journeys">Journeys</string>
+    <string name="nav_safety">Safety</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Onboarding -->
+    <string name="onboard_title_1">Personal Safety Shield</string>
+    <string name="onboard_desc_1">Stay protected wherever you go with real-time emergency coordination, discreet safety tools, and verified contact networks.</string>
+    <string name="onboard_title_2">Smart Journey Monitoring</string>
+    <string name="onboard_desc_2">Share your destination and expected arrival time. Complete scheduled safety check-ins or trigger automatic escalation if a check-in is missed.</string>
+    <string name="onboard_title_3">Instant Emergency Assistance</string>
+    <string name="onboard_desc_3">Dispatch SOS alerts with live GPS coordinates to trusted contacts and track real-time responder acknowledgements.</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_get_started">Get Started</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your SafeMe safety account</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join SafeMe for Smart Journey Monitoring and SOS protection</string>
+    <string name="otp_title">Verify Mobile Number</string>
+    <string name="otp_subtitle">Enter the 6-digit verification code sent via backend OTP provider</string>
+    <string name="forgot_title">Reset Password</string>
+
+    <!-- Common Status & Actions -->
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+    <string name="open_settings">Open App Settings</string>
+    <string name="no_internet_error">No internet connection. Please check your network and retry.</string>
+    <string name="backend_unavailable_error">Unable to reach SafeMe server. Verify server status or API URL in Settings.</string>
+    <string name="session_expired_error">Your session has expired. Please sign in again.</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notif_channel_journey_name">Active Journey Monitoring</string>
+    <string name="notif_channel_journey_desc">Displays ongoing GPS tracking status during an active user-initiated journey.</string>
+    <string name="notif_channel_emergency_name">Emergency SOS &amp; Escalations</string>
+    <string name="notif_channel_emergency_desc">High-priority alerts for SOS dispatches, check-in reminders, and contact acknowledgements.</string>
+    <string name="notif_channel_checkin_name">Scheduled Safety Check-ins</string>
+    <string name="notif_channel_checkin_desc">Prompts you to confirm safety at scheduled intervals during a journey.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Production builds should enforce HTTPS (cleartextTrafficPermitted="false"). -->
+    <!-- Enabled here strictly for local Spring Boot capstone testing (e.g. http://10.0.2.2:8080 or LAN IP). -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

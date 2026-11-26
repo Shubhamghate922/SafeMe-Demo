@@ -1,0 +1,6 @@
+{
+  "name": "SafeMe",
+  "description": "SafeMe – Person Safety and Emergency Alert System featuring Smart Journey Monitoring, scheduled safety check-ins, SOS emergency dispatch, escalation workflows, trusted contacts, and community safety maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

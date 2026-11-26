@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer Protective Shield -->
+    <path
+        android:fillColor="#6C3CE9"
+        android:pathData="M48,6L14,20V46C14,67.8 28.5,87.9 48,93C67.5,87.9 82,67.8 82,46V20L48,6Z" />
+    <!-- Inner Shield Highlight -->
+    <path
+        android:fillColor="#402080"
+        android:fillAlpha="0.25"
+        android:pathData="M48,11L19,23V46C19,64.8 31.3,82.1 48,86.8V11Z" />
+    <!-- Location Pin inside Shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,25C39.2,25 32,32.2 32,41C32,52.8 48,70 48,70C48,70 64,52.8 64,41C64,32.2 56.8,25 48,25Z" />
+    <!-- Pin Center Circle -->
+    <path
+        android:fillColor="#6C3CE9"
+        android:pathData="M48,34A7,7 0 1,0 48,48A7,7 0 1,0 48,34Z" />
+</vector>

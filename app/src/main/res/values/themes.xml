@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeMe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/safeme_primary</item>
+        <item name="colorOnPrimary">@color/safeme_white</item>
+        <item name="colorPrimaryContainer">@color/safeme_light_lavender</item>
+        <item name="colorOnPrimaryContainer">@color/safeme_deep_purple</item>
+        <item name="colorSecondary">@color/safeme_deep_purple</item>
+        <item name="colorOnSecondary">@color/safeme_white</item>
+        <item name="colorError">@color/safeme_emergency_red</item>
+        <item name="colorOnError">@color/safeme_white</item>
+        <item name="android:colorBackground">@color/safeme_background</item>
+        <item name="colorSurface">@color/safeme_surface</item>
+        <item name="colorOnSurface">@color/safeme_text_main</item>
+        <item name="colorOnSurfaceVariant">@color/safeme_text_secondary</item>
+        <item name="colorOutline">@color/safeme_border</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/safeme_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.SafeMe.Splash" parent="Theme.SafeMe">
+        <item name="android:statusBarColor">@color/safeme_deep_purple</item>
+        <item name="android:navigationBarColor">@color/safeme_deep_purple</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="ShapeAppearance.SafeMe.Card" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.SafeMe.Button" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">14dp</item>
+    </style>
+</resources>

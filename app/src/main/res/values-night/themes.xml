@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeMe" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/safeme_primary</item>
+        <item name="colorOnPrimary">@color/safeme_white</item>
+        <item name="colorPrimaryContainer">@color/safeme_deep_purple</item>
+        <item name="colorOnPrimaryContainer">@color/safeme_light_lavender</item>
+        <item name="colorSecondary">@color/safeme_light_lavender</item>
+        <item name="colorOnSecondary">@color/safeme_deep_purple</item>
+        <item name="colorError">@color/safeme_emergency_red</item>
+        <item name="colorOnError">@color/safeme_white</item>
+        <item name="android:colorBackground">@color/safeme_dark_background</item>
+        <item name="colorSurface">@color/safeme_dark_surface</item>
+        <item name="colorOnSurface">@color/safeme_dark_text_main</item>
+        <item name="colorOnSurfaceVariant">@color/safeme_dark_text_secondary</item>
+        <item name="colorOutline">@color/safeme_dark_border</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/safeme_dark_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
